@@ -4,7 +4,7 @@ const DKG = require('../index.js');
 const OT_NODE_HOSTNAME = 'http://localhost';
 const OT_NODE_PORT = '8900';
 const PUBLIC_KEY = '0x6667B080f284Cbb21da806C2A9c95B89A6958262';
-const PRIVATE_KEY = '0x0de6d6c050c9b733be7377d54b01be0c4cf035110a73b19e7289812cd1ee5f7b'; //test
+const PRIVATE_KEY = '0x0de6d6c050c9b733be7377d54b01be0c4cf035110a73b19e7289812cd1ee5f7b'; 
 
 const DkgClient = new DKG({
     endpoint: OT_NODE_HOSTNAME,
